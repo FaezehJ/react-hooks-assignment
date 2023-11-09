@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  div {
+    background-color: rgb(2, 25, 46);
+    background-size: cover;
+  }
+  
+  .App {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .element::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5; 
+    z-index: 0; 
+    min-height: 100vh;
+  }
+
+  

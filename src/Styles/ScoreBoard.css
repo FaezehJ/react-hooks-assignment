@@ -1,0 +1,79 @@
+/* Styles for the overall player card */
+.container-fluid {
+    background-color: rgb(210, 241, 243);
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .row.text-center h1 {
+    color: white; 
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 2em;;
+  }
+
+  .player-name {
+    color: white;
+    font-size: x-large;
+  }
+
+  /* style for player name */
+  .container-fluid h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* style for player score */
+  .container-fluid p {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the action buttons */
+  .btn {
+    margin-top: 0.5rem;
+  }
+  
+  /* Style for the Increment button */
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style for the Decrement button */
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Style for the Delete Player button */
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .col-md-6, .col-12 {
+      padding: 0 15px;
+    }
+  }
